@@ -1,0 +1,14 @@
+name: Test Check
+
+on:
+  pull_request:
+  merge_group:
+
+jobs:
+
+  hello:
+    runs-on: ubuntu-latest
+    steps:
+
+      - run: |
+          echo "${{github.ref}}"
