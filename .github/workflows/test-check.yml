@@ -3,6 +3,7 @@ name: Test Check
 on:
   pull_request:
   merge_group:
+    types: [checks_requested]
 
 jobs:
 
